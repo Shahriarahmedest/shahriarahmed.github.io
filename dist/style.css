@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: url('https://i.ibb.co/9tfN9m6/The-Number-of-Starbucks-in-Every-European-Country-2019.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for content */
+}
+
+header h1 img {
+  max-width: 200px;
+  display: block;
+  margin: auto;
+}
+
+nav {
+  background-color: #006241; /* Starbucks Green */
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #006241;
+}
+
+section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+section img {
+  max-width: 90%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#interactive button {
+  background-color: #006241;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#interactive button:hover {
+  background-color: #004d33;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #006241;
+  color: white;
+  margin-top: 20px;
+}
